@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as *;
+
+.footer {
+    background-color: $accent-color;
+    color: $white;
+    padding: 40px 0;
+    text-align: left;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h3 {
+            font-size: 21px;
+        }
+    }
+
+    &__copy {
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
