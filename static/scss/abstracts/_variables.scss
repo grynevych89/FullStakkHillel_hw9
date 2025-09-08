@@ -1,0 +1,16 @@
+$background-main: #eeeff1;
+$accent-color: #34547a;
+$black: #000000;
+$white: #ffffff;
+$text: #727272;
+
+$container-max: 1110px; // як у вихідному макеті
+$gutter: 16px;
+
+$breakpoints: (
+    xl: 1200px,
+    lg: 992px,
+    md: 768px,
+    sm: 576px,
+    xs: 420px
+);

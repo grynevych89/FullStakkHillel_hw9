@@ -1,0 +1,20 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.about {
+    text-align: center;
+    padding: 120px 0;
+    background-color: $white;
+
+    &__title {
+        @include clamp-font(22px, 5vw, 32px);
+        margin-bottom: 40px;
+        color: $black;
+    }
+
+    &__desc {
+        max-width: 540px;
+        margin: 0 auto;
+        color: $text;
+    }
+}
