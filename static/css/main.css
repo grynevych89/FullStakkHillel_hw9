@@ -28,7 +28,7 @@ section {
 }
 
 .container {
-  padding: 0 calc(50vw - 1110px / 2);
+  padding-inline: max(16px, 50vw - 1110px / 2);
 }
 
 .header {
